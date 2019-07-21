@@ -1,4 +1,4 @@
-package practice.threadPool;
+package practice.simpleThreadPool;
 
 import java.util.HashSet;
 import java.util.Set;

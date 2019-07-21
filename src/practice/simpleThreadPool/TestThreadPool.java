@@ -1,4 +1,4 @@
-package practice.threadPool;
+package practice.simpleThreadPool;
 
 
 public class TestThreadPool {
