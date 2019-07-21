@@ -1,10 +1,10 @@
-package jvm;
+package other;
 /**
  * @description:本类用于观察gc有没有使用引用计数算法
- * 因为引用计数算法的弊端在于当对象之间的相互引用时不会被回收
+ * 因为引用计数算法的弊端在于当对象之间的相互循环引用时不会被回收
  * 如果gc使用的是引用计数算法，则下面代码这两个实例不会被回收。
- * 运行VM option：-verbose:gc -XX:+PrintGCDetails
- * 观察到[PSYoungGen: 7176K->792K(35840K)] 7176K->800K(117760K)
+ * 运行VM option：-verbose:gc
+ * 观察到在第一行[PSYoungGen: 7176K->792K(35840K)] 7176K->800K(117760K)
  * 被回收了，可见gc没有使用引用计数器，避免了该弊端。
  * @author: wangxuanni
  * @create: 2019-07-13 11:17
