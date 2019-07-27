@@ -9,4 +9,4 @@
 - [x] 线程池
 
 其他
-- [x] LRU 博文地址](http://wangxuanni.top/2019/07/25/LRU/）
+- [x] LRU [博文地址](http://wangxuanni.top/2019/07/25/LRU/）
