@@ -8,7 +8,7 @@ package patterns.factory;
  **/
 
 public class HpMouse extends Mouse{
-    void sayHi(){
+   public void sayHi(){
         System.out.println("DeilMouse say hi");
     }
 
