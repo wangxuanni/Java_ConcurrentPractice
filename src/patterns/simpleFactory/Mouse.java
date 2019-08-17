@@ -1,4 +1,4 @@
-package patterns.simple;
+package patterns.simpleFactory;
 
 /**
  * @parameter:
