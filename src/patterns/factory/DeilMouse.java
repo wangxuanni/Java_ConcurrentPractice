@@ -1,6 +1,6 @@
 package patterns.factory;
 
-import patterns.simple.Mouse;
+import patterns.simpleFactory.Mouse;
 
 /**
  * @description:
