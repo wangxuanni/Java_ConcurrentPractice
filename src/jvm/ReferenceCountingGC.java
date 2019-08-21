@@ -1,4 +1,4 @@
-package other;
+package jvm;
 /**
  * @description:本类用于观察gc有没有使用引用计数算法
  * 因为引用计数算法的弊端在于当对象之间的相互循环引用时不会被回收
