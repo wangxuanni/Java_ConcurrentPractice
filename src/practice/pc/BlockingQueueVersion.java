@@ -4,7 +4,7 @@ import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
 
 /**
- * @description:
+ * @description:用BlockingQueueVersion实现的生产者消费者模型
  * @author: wangxuanni
  * @create: 2019-07-31 23:01
  **/
