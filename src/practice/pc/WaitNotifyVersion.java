@@ -23,6 +23,7 @@ public class WaitNotifyVersion {
         c3.start();
         c4.start();
 
+
     }
 
     private static final ConcurrentLinkedQueue<String> list = new ConcurrentLinkedQueue<>();
