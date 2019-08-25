@@ -4,20 +4,15 @@ import java.util.HashMap;
 import java.util.LinkedList;
 
 /**
- * @description:java实现LRU——最近最少使用的页面置换算法
+ * @description:用HashMap+LinkedList实现LRU
  * @author: wangxuanni
  * @create: 2019-07-23 14:45
  **/
 
 public class LRUCache<K, V> {
     public static void main(String[] args) {
-        LRUCache<String,String> lru=new LRUCache<>(10);
-        lru.put("C", null);
-        lru.put("A", null);
-        lru.put("D", null);
-        lru.put("B", null);
-        lru.put("E", null);
-        lru.put("B", null);
+        LRUCache<String,String> lru=new LRUCache<>(3);
+
         lru.put("A", null);
         lru.put("B", null);
         lru.put("C", null);
@@ -25,7 +20,7 @@ public class LRUCache<K, V> {
 
         System.out.println(lru);
         /*
-        out:[D, C, B, A, E]
+        out:[D, C, B]
         */
 
     }
