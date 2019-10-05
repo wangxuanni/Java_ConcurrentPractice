@@ -38,8 +38,6 @@ juc有两大核心原理：**CAS**是原子类的基础,AQS是锁、信号量等
 
 
 
-![图片来源美团技术博客](C:\Users\home.11\Desktop\小a笔记\images\乐悲观锁.png)
-
 ## 1、锁（AQS）:可重入锁、读写锁、condition、lockSupport
 
 ### 读写锁
