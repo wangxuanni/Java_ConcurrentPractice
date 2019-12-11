@@ -152,14 +152,16 @@ System.out.println(thread.getName()+"调用await方法");
  
  // BarrierTask任务是输出System.out.println("BarrierTask");
  
-/*输出结果:
+/*
+         输出结果:
          thread1.调用await方法
          thread2.调用await方法
          BarrierTask
          任务完成
          thread1.调用await方法
          thread2.调用await方法
-         BarrierTask*/
+         BarrierTask
+*/
 ```
 
 
